@@ -1,12 +1,12 @@
 <template>
 <div class="control-section">
-    <div>
+    <!-- <div>
         <ejs-toolbar id='toolbar' style="width:100%;height: 10%;margin-top: 10px;" :clicked='toolbarclicked' :items='toolbaritems'>
         </ejs-toolbar>
     </div>
     <div id="upload-container">
         <ejs-uploader id="fileupload" name="UploadFiles" :asyncSettings='fileuploadasyncSettings' :success='fileuploadsuccess' :showFileList='showFile' />
-    </div>
+    </div> -->
     <div style="width:100%;height:445px">
         <div id="palette-space" style="width:240px;height:445px; float:left">
             <ejs-symbolpalette id="symbolpalette" :expandMode='expandMode' :palettes='palettes' :width='palettewidth' :height='paletteheight' :getSymbolInfo='getSymbolInfo' :symbolMargin='symbolMargin' :symbolHeight='symbolHeight' :symbolWidth='symbolWidth' :getNodeDefaults='palettegetNodeDefaults'></ejs-symbolpalette>
@@ -31,11 +31,11 @@
     font-style: normal;
 }
 
-#upload-container {}
+/* #upload-container {} */
 
-.e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn.e-btn.e-tbtn-txt .e-icons.e-btn-icon {
+/* .e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn.e-btn.e-tbtn-txt .e-icons.e-btn-icon {
     padding: 3px;
-}
+} */
 
 .e-bpmn-icons {
     font-family: 'e-bpmn-icons' !important;
